@@ -653,7 +653,9 @@ class HTMLTestRunner(Template_mixin):
         Override this to add custom attributes.
         """
         startTime = str(self.startTime)[:19]
+        stopTime = str(self.stopTime)[:19]
         duration = str(self.stopTime - self.startTime)
+        # duration = str(self.stopTime.strftime('%H:%M:%S') - self.startTime.strftime('%H:%M:%S'))
         status = []
         if result.success_count: status.append('Pass %s'    % result.success_count)
         if result.failure_count: status.append('Failure %s' % result.failure_count)
@@ -663,9 +665,10 @@ class HTMLTestRunner(Template_mixin):
         else:
             status = 'none'
         return [
-            ('Start Time', startTime),
-            ('Duration', duration),
-            ('Status', status),
+            ('开始时间', startTime),
+            ('耗时', duration),
+            ('结束时间',stopTime),
+            ('状态', status),
         ]
 
 
