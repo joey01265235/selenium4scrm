@@ -1,1 +1,16 @@
 .idea/vcs.xml
+.idea/dataSources.local.xml
+.idea/dataSources.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/selenium4scrm.iml
+.idea/workspace.xml
+scrmtest/__pycache__/AutomateDriver.cpython-35.pyc
+scrmtest/__pycache__/HTMLTestRunner.cpython-35.pyc
+scrmtest/__pycache__/__init__.cpython-35.pyc
+scrmtest/testcase/__pycache__/elementTest.cpython-35.pyc
+scrmtest/testcase/__pycache__/scrmBasePage.cpython-35.pyc
+scrmtest/testcase/__pycache__/scrm_element.cpython-35.pyc
+scrmtest/testcase/__pycache__/scrm_login_test.cpython-35.pyc
+scrmtest/testcase/__pycache__/system_login.cpython-35.pyc
